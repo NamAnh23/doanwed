@@ -1,0 +1,20 @@
+{
+  "name": "bembon-restaurant",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "preview": "node server.js --production"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
